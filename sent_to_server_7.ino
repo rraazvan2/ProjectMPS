@@ -4,8 +4,8 @@ void send_to_server_7() {
   url += NOOBIX_id;
   url += "&pw=";
   url += NOOBIX_password;  //sensor value
-  url += "&un=1";
-  url += "&n1=";
+  url += "&un=7";
+  url += "&n7=";
   url += String(sent_nr_7);  //sensor value
 
   URL_withPacket = "";
