@@ -12,10 +12,6 @@ void send_to_server_1() {
 
   URL_withPacket = (String("GET ") + url + " HTTP/1.1\r\n" + "Host: " + host + "\r\n" + "Connection: close\r\n\r\n");
 
-  /*
-URL_withPacket += "Host: www.electronoobs.com\r\n";  
-URL_withPacket += "Connection: close\r\n\r\n";  
-  */
   /// This builds out the payload URL - not really needed here, but is very handy when adding different arrays to the payload
   counter = 0;  //keeps track of the payload size
   payload_size = 0;

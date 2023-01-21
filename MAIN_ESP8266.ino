@@ -42,10 +42,10 @@ DHT dht_10(temperature_sensor_pin_10, DHTTYPE);
 //////////////////////////////////////////////
 const char SSID_ESP[] = "MiFibra-4132";         //Give EXACT name of your WIFI
 const char SSID_KEY[] = "vzP5anY5";             //Add the password of that WIFI connection
-const char* host = "noobix.000webhostapp.com";  //Add the host without "www" Example: electronoobs.com
+const char* host = "amintiridecalitate.ro";  //Add the host without "www" Example: electronoobs.com
 String NOOBIX_id = "99999";                     //This is the ID you have on your database, I've used 99999 becuase there is a maximum of 5 characters
 String NOOBIX_password = "12345";               //Add the password from the database, also maximum 5 characters and only numerical values
-String location_url = "/TX.php?id=";            //location of your PHP file on the server. In this case the TX.php is directly on the first folder of the server
+String location_url = "/pages/MPS/TX.php?id=";            //location of your PHP file on the server. In this case the TX.php is directly on the first folder of the server
                                                 //If you have the files in a different folder, add thas as well, Example: "/ESP/TX.php?id="     Where the folder is ESP
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
