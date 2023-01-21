@@ -188,6 +188,8 @@ void loop() {
     if (isnan(sent_nr_1)) {
 
       Serial.println("Senzor 1, nu este conectat!");
+      sent_nr_1 = 255;
+      send_to_server_1();
 
     } else {
 
@@ -199,6 +201,8 @@ void loop() {
     if (isnan(sent_nr_2)) {
 
       Serial.println("Senzorul 2, nu este conectat");
+      sent_nr_2 = 255;
+      send_to_server_2();
 
     } else {
 
@@ -210,6 +214,8 @@ void loop() {
     if (isnan(sent_nr_3)) {
 
       Serial.println("Senzorul 3, nu este conectat!");
+      sent_nr_3 = 255;
+      send_to_server_3(0;)
 
     } else {
 
@@ -221,6 +227,8 @@ void loop() {
     if (isnan(sent_nr_4)) {
 
       Serial.println("Senzorul 4, nu este conectat!");
+      sent_nr_4 = 255;
+      send_to_server_4();      
 
     } else {
 
@@ -232,6 +240,8 @@ void loop() {
     if (isnan(sent_nr_5)) {
 
       Serial.println("Senzorul 5, nu este conectat!");
+      sent_nr_5 = 255;
+      sent_to_server_5();
 
     } else {
 
@@ -243,6 +253,8 @@ void loop() {
     if (isnan(sent_nr_6)) {
 
       Serial.println("Senzorul 6, nu este conectat!");
+      sent_nr_6 = 255;
+      sent_to_server_6();
 
     } else {
 
@@ -254,6 +266,8 @@ void loop() {
     if (isnan(sent_nr_7)) {
 
       Serial.println("Senzorul 7, nu este conectat!");
+      sent_nr_7 = 255;
+      send_to_server_7();
 
     } else {
 
@@ -265,6 +279,8 @@ void loop() {
     if (isnan(sent_nr_8)) {
 
       Serial.println("Senzorul 8, nu este conectat!");
+      sent_nr_8 = 255;
+      sent_to_server_8();
 
     } else {
 
@@ -276,6 +292,8 @@ void loop() {
     if (isnan(sent_nr_9)) {
 
       Serial.println("Senzorul 9, nu este conectat!");
+      sent_nr_9 = 255;
+      sent_to_server_9();
 
     } else {
 
@@ -287,6 +305,8 @@ void loop() {
     if (isnan(sent_nr_10)) {
 
       Serial.println("Senzorul 10, nu este conectat!");
+      sent_nr_10 = 255;
+      sent_to_server_10();
 
     } else {
 
